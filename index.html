@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/index.css" />
+    <title>Pay Way</title>
+    <script src="/index.js"></script>
+  </head>
+
+  <body>
+    <!-- Header START -->
+    <header>
+      <div class="main_header_container">
+        <img
+          class="header_logo"
+          src="./assets/img/Payway_Logo_header.svg"
+          alt="Pay Way"
+        />
+        <div class="header_bar">
+          <button
+            id="button1"
+            class="button1_style"
+            onclick="swapStyles('button2','button1')"
+          >
+            ՏերմինաԼՆԵՐ
+          </button>
+          <button
+            id="button2"
+            class="button2_style"
+            onclick="swapStyles('button1', 'button2')"
+          >
+            Հերթագրում
+          </button>
+        </div>
+        <div class="header_login" onclick="(openNewPage('./login.html'))">
+          <img src="./assets/img/icon_login.svg" alt="Pay Way Login" />
+          <h2>Մուտք</h2>
+        </div>
+      </div>
+    </header>
+    <!-- Header END -->
+
+    <!-- Main START -->
+    <section class="section_1">
+      <div class="section_1_A">
+        <div class="section_1_A_left">
+          <span class="text_section_1">
+            <span>PayWay-ը</span> հիմնադրվել է 2018 թվականին: Ընկերությունը
+            առաջարկում է տարբեր տեսակի ֆինանսական կառույցների լուծումներ,
+            ինքնասպասարկող վճարային տերմինալներ, օնլայն դրամապանակ,
+            ինքնասպաարկվող տարադրամի փոխանակման տերմինալներ, բուժ.
+            հաստատությունների ներքին ծրագրեր ինտեգրված վճարային համակարգերի հետ:
+            PayWay-ը ընկերությունը առաջնորդվում է` «լավ աշխատանքի դեպքում,
+            անհաղթահարելի ոչինչ չկա» կարգախոսով:
+          </span>
+          <a href="#" class="see_more">
+            <span>տեսնել ավելին</span>
+            <img src="./assets/img/Arrow_1.svg" alt="arrow" />
+          </a>
+        </div>
+        <div class="section_1_A_right">
+          <div class="up_arrow"></div>
+          <div class="down_arrow"></div>
+          <img
+            class="paw_way_icon"
+            src="./assets/img/Payway_LOGO_2.svg"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div class="section_1_B">
+        <h4>ԻՆչ լուծումներ ենք մենք տալիս</h4>
+        <div class="solutions_container">
+          <div id="card_id" class="solution">
+            <div class="img_container">
+              <img class="card_1" src="/assets/img/card_1.svg" alt="/" />
+              <img class="card_2" src="/assets/img/card_2.svg" alt="/" />
+            </div>
+            <div class="text_conatiner">
+              <span class="text_a">ՊԱրզ</span>
+              <span class="text_b">Ինտերֆեյս</span>
+            </div>
+          </div>
+          <div id="mechanism_id" class="solution">
+            <div class="img_container">
+              <img
+                src="/assets/img/mechanism_1.svg"
+                alt="/"
+                class="mechanism_1"
+              />
+              <img
+                src="/assets/img/mechanism_2.svg"
+                alt="/"
+                class="mechanism_2"
+              />
+              <img
+                src="/assets/img/mechanism_3.svg"
+                alt="/"
+                class="mechanism_3"
+              />
+            </div>
+            <div class="text_conatiner left_text_container">
+              <span class="text_b">Ինտեգրում</span>
+              <span class="text_a">Ձեր համակարգի հետ</span>
+            </div>
+          </div>
+          <div id="text_id" class="solution">
+            <div class="img_container text_add_style">
+              <img class="heand_1" src="/assets/img/heand_1.svg" alt="/" />
+              <img class="heand_2" src="/assets/img/heand_2.svg" alt="/" />
+            </div>
+            <div class="text_conatiner left_text_container">
+              <span class="text_a">Ցույց է տալիս մասնակի</span>
+              <span class="text_b">Վճարումները</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="section2_A" class="section_2">
+      <h1 class="section2_titel_text">Տերմինալներ</h1>
+      <div class="section_2_container">
+        <div class="line">
+          <div class="card_item">
+            <h4>Արագ Վճարման<br />համակարգ</h4>
+            <span>
+              Արագ վճարումները միջոցներն անմիջապես հասանելի են դարձնում ստացողին
+              և կարող են օգտագործվել շուրջօրյա, օրը 24 ժամ, շաբաթը 7 օր:
+            </span>
+          </div>
+          <div class="card_item">
+            <h4>Արագ Վճարման<br />համակարգ</h4>
+            <span>
+              Արագ վճարումները միջոցներն անմիջապես հասանելի են դարձնում ստացողին
+              և կարող են օգտագործվել շուրջօրյա, օրը 24 ժամ, շաբաթը 7 օր:
+            </span>
+          </div>
+          <div class="card_item">
+            <h4>Արագ Վճարման<br />համակարգ</h4>
+            <span>
+              Արագ վճարումները միջոցներն անմիջապես հասանելի են դարձնում ստացողին
+              և կարող են օգտագործվել շուրջօրյա, օրը 24 ժամ, շաբաթը 7 օր:
+            </span>
+          </div>
+          <div class="card_item">
+            <h4>Արագ Վճարման<br />համակարգ</h4>
+            <span>
+              Արագ վճարումները միջոցներն անմիջապես հասանելի են դարձնում ստացողին
+              և կարող են օգտագործվել շուրջօրյա, օրը 24 ժամ, շաբաթը 7 օր:
+            </span>
+          </div>
+        </div>
+
+        <div class="line line_lift">
+          <div class="card_item">
+            <h4>Արագ Վճարման<br />համակարգ</h4>
+            <span>
+              Արագ վճարումները միջոցներն անմիջապես հասանելի են դարձնում ստացողին
+              և կարող են օգտագործվել շուրջօրյա, օրը 24 ժամ, շաբաթը 7 օր:
+            </span>
+          </div>
+          <div class="card_item">
+            <h4>Արագ Վճարման<br />համակարգ</h4>
+            <span>
+              Արագ վճարումները միջոցներն անմիջապես հասանելի են դարձնում ստացողին
+              և կարող են օգտագործվել շուրջօրյա, օրը 24 ժամ, շաբաթը 7 օր:
+            </span>
+          </div>
+          <div class="card_item">
+            <h4>Արագ Վճարման<br />համակարգ</h4>
+            <span>
+              Արագ վճարումները միջոցներն անմիջապես հասանելի են դարձնում ստացողին
+              և կարող են օգտագործվել շուրջօրյա, օրը 24 ժամ, շաբաթը 7 օր:
+            </span>
+          </div>
+          <div class="card_item">
+            <h4>Արագ Վճարման<br />համակարգ</h4>
+            <span>
+              Արագ վճարումները միջոցներն անմիջապես հասանելի են դարձնում ստացողին
+              և կարող են օգտագործվել շուրջօրյա, օրը 24 ժամ, շաբաթը 7 օր:
+            </span>
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="card_item">
+            <h4>Արագ Վճարման<br />համակարգ</h4>
+            <span>
+              Արագ վճարումները միջոցներն անմիջապես հասանելի են դարձնում ստացողին
+              և կարող են օգտագործվել շուրջօրյա, օրը 24 ժամ, շաբաթը 7 օր:
+            </span>
+          </div>
+          <div class="card_item">
+            <h4>Արագ Վճարման<br />համակարգ</h4>
+            <span>
+              Արագ վճարումները միջոցներն անմիջապես հասանելի են դարձնում ստացողին
+              և կարող են օգտագործվել շուրջօրյա, օրը 24 ժամ, շաբաթը 7 օր:
+            </span>
+          </div>
+          <div class="card_item">
+            <h4>Արագ Վճարման<br />համակարգ</h4>
+            <span>
+              Արագ վճարումները միջոցներն անմիջապես հասանելի են դարձնում ստացողին
+              և կարող են օգտագործվել շուրջօրյա, օրը 24 ժամ, շաբաթը 7 օր:
+            </span>
+          </div>
+          <div class="card_item">
+            <h4>Արագ Վճարման<br />համակարգ</h4>
+            <span>
+              Արագ վճարումները միջոցներն անմիջապես հասանելի են դարձնում ստացողին
+              և կարող են օգտագործվել շուրջօրյա, օրը 24 ժամ, շաբաթը 7 օր:
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="section2_B" class="section_2_B">
+      <section id="section2_A" class="section_2">
+        <h1 class="section2_titel_text">Հերթագրում</h1>
+        <div class="section_2_container">
+          <div class="line">
+            <div class="card_item">
+              <h4>Արագ Վճարման<br />համակարգ</h4>
+              <span>
+                Արագ վճարումները միջոցներն անմիջապես հասանելի են դարձնում
+                ստացողին և կարող են օգտագործվել շուրջօրյա, օրը 24 ժամ, շաբաթը 7
+                օր:
+              </span>
+            </div>
+            <div class="card_item">
+              <h4>Արագ Վճարման<br />համակարգ</h4>
+              <span>
+                Արագ վճարումները միջոցներն անմիջապես հասանելի են դարձնում
+                ստացողին և կարող են օգտագործվել շուրջօրյա, օրը 24 ժամ, շաբաթը 7
+                օր:
+              </span>
+            </div>
+            <div class="card_item">
+              <h4>Արագ Վճարման<br />համակարգ</h4>
+              <span>
+                Արագ վճարումները միջոցներն անմիջապես հասանելի են դարձնում
+                ստացողին և կարող են օգտագործվել շուրջօրյա, օրը 24 ժամ, շաբաթը 7
+                օր:
+              </span>
+            </div>
+            <div class="card_item">
+              <h4>Արագ Վճարման<br />համակարգ</h4>
+              <span>
+                Արագ վճարումները միջոցներն անմիջապես հասանելի են դարձնում
+                ստացողին և կարող են օգտագործվել շուրջօրյա, օրը 24 ժամ, շաբաթը 7
+                օր:
+              </span>
+            </div>
+          </div>
+
+          <div class="line line_lift">
+            <div class="card_item">
+              <h4>Արագ Վճարման<br />համակարգ</h4>
+              <span>
+                Արագ վճարումները միջոցներն անմիջապես հասանելի են դարձնում
+                ստացողին և կարող են օգտագործվել շուրջօրյա, օրը 24 ժամ, շաբաթը 7
+                օր:
+              </span>
+            </div>
+            <div class="card_item">
+              <h4>Արագ Վճարման<br />համակարգ</h4>
+              <span>
+                Արագ վճարումները միջոցներն անմիջապես հասանելի են դարձնում
+                ստացողին և կարող են օգտագործվել շուրջօրյա, օրը 24 ժամ, շաբաթը 7
+                օր:
+              </span>
+            </div>
+            <div class="card_item">
+              <h4>Արագ Վճարման<br />համակարգ</h4>
+              <span>
+                Արագ վճարումները միջոցներն անմիջապես հասանելի են դարձնում
+                ստացողին և կարող են օգտագործվել շուրջօրյա, օրը 24 ժամ, շաբաթը 7
+                օր:
+              </span>
+            </div>
+            <div class="card_item">
+              <h4>Արագ Վճարման<br />համակարգ</h4>
+              <span>
+                Արագ վճարումները միջոցներն անմիջապես հասանելի են դարձնում
+                ստացողին և կարող են օգտագործվել շուրջօրյա, օրը 24 ժամ, շաբաթը 7
+                օր:
+              </span>
+            </div>
+          </div>
+
+          <div class="line">
+            <div class="card_item">
+              <h4>Արագ Վճարման<br />համակարգ</h4>
+              <span>
+                Արագ վճարումները միջոցներն անմիջապես հասանելի են դարձնում
+                ստացողին և կարող են օգտագործվել շուրջօրյա, օրը 24 ժամ, շաբաթը 7
+                օր:
+              </span>
+            </div>
+            <div class="card_item">
+              <h4>Արագ Վճարման<br />համակարգ</h4>
+              <span>
+                Արագ վճարումները միջոցներն անմիջապես հասանելի են դարձնում
+                ստացողին և կարող են օգտագործվել շուրջօրյա, օրը 24 ժամ, շաբաթը 7
+                օր:
+              </span>
+            </div>
+            <div class="card_item">
+              <h4>Արագ Վճարման<br />համակարգ</h4>
+              <span>
+                Արագ վճարումները միջոցներն անմիջապես հասանելի են դարձնում
+                ստացողին և կարող են օգտագործվել շուրջօրյա, օրը 24 ժամ, շաբաթը 7
+                օր:
+              </span>
+            </div>
+            <div class="card_item">
+              <h4>Արագ Վճարման<br />համակարգ</h4>
+              <span>
+                Արագ վճարումները միջոցներն անմիջապես հասանելի են դարձնում
+                ստացողին և կարող են օգտագործվել շուրջօրյա, օրը 24 ժամ, շաբաթը 7
+                օր:
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- Main END -->\
+
+    <!-- Footer START -->
+    <footer>
+      <h1>Կապ մեզ հետ</h1>
+      <div class="footer_container">
+        <div class="footer_container_left"></div>
+        <form action="#" class="footer_container_right">
+          <div class="input_box">
+            <label class="email_st" for="email">Էլ․ հասցե</label>
+            <input
+              id="email"
+              class="input_email"
+              type="email"
+              placeholder="Էլ․ հասցե "
+            />
+          </div>
+          <div class="input_box">
+            <label class="password_st" for="message">Ձեր հարցը</label>
+            <input
+              id="message"
+              class="input_text"
+              type="text"
+              placeholder="Ձեր հարցը"
+            />
+          </div>
+          <button class="send_bnt">Ուղարկել</button>
+        </form>
+      </div>
+      <div class="footer_low">
+        <span>© 2023 PayWay All rights reserved</span>
+        <div class="arm_container">
+          <img src="/assets/img/arm.svg" alt="arm" />
+        </div>
+      </div>
+    </footer>
+    <!-- Footer END -->
+  </body>
+</html>

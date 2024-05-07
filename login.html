@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style_login.css">
+    <link rel="stylesheet" href="/index.css">
+    <title>PayWay</title>
+    <script src="/index.js"></script>
+</head>
+
+<body>
+    <!-- Header START -->
+    <header>
+        <div class="main_header_container">
+            <img class="header_logo" src="./assets/img/Payway_Logo_header.svg" alt="Pay Way"  onclick="openNewPage('./index.html')"/>
+            <div class="header_bar">
+                <button id="button1" class="button1_style"
+                    onclick="swapStyles('button2','button1')">ՏերմինաԼՆԵՐ</button>
+                <button id="button2" class="button2_style"
+                    onclick="swapStyles('button1', 'button2')">Հերթագրում</button>
+            </div>
+            <div class="header_login" onclick="(openNewPage('./login.html'))">
+                <img src="./assets/img/icon_login.svg" alt="Pay Way Login" />
+                <h2>Մուտք</h2>
+            </div>
+        </div>
+    </header>
+    <!-- Header END -->
+
+    
+    
+    <section class="logIn">
+        <div class="email-form">
+            <h1>Մուտք</h1>
+            <form action="#">
+                <div>
+                    <label for="email">էլ ․ հասցե</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Գաղտնաբառ</label>
+                    <input type="password" id="message" name="message" required>
+                </div>
+                <button type="submit">Ուղարկել</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

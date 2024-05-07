@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+@font-face {
+  font-family: "Mardoto-Medium";
+  src: url(./fonter.am_mardoto/Mardoto-Medium.ttf);
+}
+
+:root {
+  --colornumber_1: #092c48;
+  --colornumber_2: #ffffff;
+}
+
+body {
+  font-family: "Mardoto-Medium";
+  background-color: var(--colornumber_1);
+}
+
+.logIn {
+  width: 100%;
+  min-height: 829px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-inline: 16px;
+}
+
+form {
+  margin-top: 26px;
+  max-width: 688px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.email-form h1 {
+  font-family: Mardoto;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.email-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-family: Mardoto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+.email-form input[type="email"],
+.email-form input {
+  width: 100%;
+  height: 70px;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  background: none;
+}
+
+.email-form input[type="email"],
+.email-form input ::placeholder {
+  font-family: Mardoto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: start;
+  color: #9b9b9b;
+}
+
+.email-form input[type="password"],
+.email-form input ::placeholder {
+  font-family: Mardoto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: start;
+  color: #9b9b9b;
+}
+
+.email-form input[type="email"]:focus,
+.email-form input:focus {
+  outline: none;
+  box-shadow: 0 0 2px 1px #007bff;
+}
+
+.email-form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.email-form button[type="submit"]:hover {
+  background-color: #0062cc;
+}
+
+.email-form button[type="submit"] {
+  background-color: ;
+}
+
+.email-form button[type="submit"] {
+  background-color: #028a7e;
+  cursor: pointer;
+  width: 100%;
+  max-width: 688px;
+  height: 44px;
+  border-radius: 4px;
+}
+
+@media (max-width: 500px) {
+  .email-form h1 {
+    font-size: 11.636vw;
+    line-height: 13.636vw;
+  }
+  .email-form label {
+    font-size: 4.364vw;
+    line-height: 5.091vw;
+  }
+  .logIn {
+    align-items: start;
+    margin-top: 18.182vw;
+    min-height: 150.727vw;
+  }
+}
